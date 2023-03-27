@@ -23,6 +23,7 @@ h1 {
     font-family: Roboto Serif;
     font-size: 4rem;
     font-weight: var(--fontWeightMedium);
+    line-height: 4.6875rem;
 }
 
 h2{
@@ -81,6 +82,27 @@ h3 {
 
 .banner {
     grid-area: banner;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.bannerText {
+    margin-right: 6.25rem;
+}
+
+.bannerText p {
+    font-family: roboto;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--darkGray);
+}
+
+.banner img {
+    width: 37.5rem;
+    height: 27.5rem;
 }
 
 /* Course Card Section */
