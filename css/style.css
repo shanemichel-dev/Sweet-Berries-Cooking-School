@@ -173,3 +173,91 @@ h3 {
     width: 8.10125rem;
     height: 2rem;
 }
+
+/* Media Queries */
+
+/* Tablet */
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 1.625rem 1.625rem 0 1.625rem;
+        width: auto;
+    }
+
+    h1 {
+        font-size: 3rem;
+        line-height: 3.513125rem;
+    }
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+
+    .bannerText {
+        margin: 0;
+    }
+
+    .banner p {
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .courseCardsSection {
+        grid-template-columns: repeat(2, auto);
+        margin-top: 5rem;
+    }
+
+    .footer {
+        margin-top: 5rem;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 390px) {
+    .container {
+        padding: 1.625rem 1.625rem 0 1.625rem;
+        width: auto;
+    }
+
+    h1 {
+        font-size: 2rem;
+        line-height: 2.635rem;
+    }
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 2.5rem;
+    }
+
+    .bannerText {
+        margin: 0;
+    }
+
+    .banner p {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+
+    .banner img {
+        width: auto;
+    }
+
+    .courseCardsSection {
+        grid-template-columns: 1, auto;
+        margin-top: 5rem;
+    }
+
+    .footer {
+        margin-top: 5rem;
+    }
+}
