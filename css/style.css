@@ -1,0 +1,68 @@
+:root {
+    --lightGray: #F5F3EF;
+    --white: #FFFFFF;
+    --yellow: #FEBD2F;
+    --black: #000000;
+    --darkGray: #646464;
+    --mediumGray: #DCDCDC;
+
+    --fontWeightMedium: 500;
+    --fontWeightBold: 700;
+}
+
+/* Universal */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: Roboto Serif;
+    font-size: 64px;
+    font-weight: var(--fontWeightMedium);
+}
+
+h2{
+    font-family: Roboto Serif;
+    font-size: 40px;
+    font-weight: var(--fontWeightMedium);
+}
+
+h3 {
+    font-family: Roboto Serif;
+    font-size: 24px;
+    font-weight: var(--fontWeightBold);
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "banner banner banner"
+    "courseCardSection courseCardSection courseCardSection"
+    "footer footer footer";
+}
+
+/* Header */
+
+.header {
+    grid-area: header;
+}
+
+/* Banner */
+
+.banner {
+    grid-area: banner;
+}
+
+/* Course Card Section */
+
+.courseCardSection {
+    grid-area: courseCardSection;
+}
+
+/* Footer */
+
+.footer {
+    grid-area: footer;
+}
