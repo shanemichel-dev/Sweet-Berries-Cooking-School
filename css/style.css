@@ -113,7 +113,7 @@ h3 {
     grid-template-columns: repeat(3, auto);
     grid-auto-rows: minmax(100px, auto);
     gap: 6rem 3rem;
-    margin-top: 5rem;
+    margin-top: 8rem;
 }
 
 .card {
@@ -160,4 +160,16 @@ h3 {
 
 .footer {
     grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--yellow);
+    height: 5rem;
+    margin-top: 8rem;
+    
+}
+
+.footer img {
+    width: 8.10125rem;
+    height: 2rem;
 }
