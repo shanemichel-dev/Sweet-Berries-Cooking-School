@@ -153,6 +153,7 @@ h3 {
 .card button {
     font-family: Roboto;
     font-weight: var(--fontWeightMedium);
+    color: var(--black);
     width: 8.9375rem;
     height: 3rem;
     background-color: var(--white);
