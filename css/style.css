@@ -225,7 +225,7 @@ h3 {
 
 /* Mobile */
 
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 425px) {
     .container {
         padding: 1.625rem 1.625rem 0 1.625rem;
     }
