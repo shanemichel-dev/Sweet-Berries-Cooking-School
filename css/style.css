@@ -67,6 +67,10 @@ h3 {
     margin-right: 2rem;
 }
 
+.bars {
+    display: none;
+}
+
 .headerButton {
     font-family: roboto;
     font-size: 1.125rem;
@@ -221,22 +225,35 @@ h3 {
 
 /* Mobile */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 391px) {
     .container {
         padding: 1.625rem 1.625rem 0 1.625rem;
-        width: auto;
+    }
+
+    .header {
+        position: relative;
+        justify-content: center;
+    }
+
+    .nav a{
+        display: none;
+    }
+
+    .bars {
+        position: absolute;
+        display: block;
+        width: 2.5rem;
+        height: 2.5rem;
+        right: 0.5rem;
+    }
+
+    .header button {
+        display: none;
     }
 
     h1 {
         font-size: 2rem;
         line-height: 2.635rem;
-    }
-
-    .banner {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-top: 2.5rem;
     }
 
     .bannerText {
@@ -249,15 +266,25 @@ h3 {
     }
 
     .banner img {
-        width: auto;
+        margin: 0;
     }
 
     .courseCardsSection {
-        grid-template-columns: 1, auto;
-        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
     }
 
-    .footer {
-        margin-top: 5rem;
+    .heading {
+        height: 8.25rem;
+    }
+
+    .heading h2 {
+        font-size: 2rem;
+        line-height: 1.75625rem;
+    }
+
+    .card p {
+        line-height: 1.5rem;
     }
 }
