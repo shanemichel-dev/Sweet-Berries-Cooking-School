@@ -1,3 +1,4 @@
+/* Awesome work on using CSS variables! */
 :root {
     --lightGray: #F5F3EF;
     --white: #FFFFFF;
@@ -11,7 +12,7 @@
 }
 
 /* Universal */
-
+/* Great work on being detailed oriented and adding the right fonts to each component of the website. */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--lightGray);
@@ -37,7 +38,7 @@ h3 {
     font-size: 1.5rem;
     font-weight: var(--fontWeightBold);
 }
-
+/* Superb! You’ve used grid template areas correctly! */
 .container {
     display: grid;
     grid-template-areas: 
@@ -49,7 +50,7 @@ h3 {
 }
 
 /* Header */
-
+/* Nice work on using Flexbox properly to create some of the components. */
 .header {
     grid-area: header;
     display: flex;
@@ -83,7 +84,7 @@ h3 {
 }
 
 /* Banner */
-
+/* Beautiful work on using CSS Grid and flex box together! */
 .banner {
     grid-area: banner;
     display: flex;
@@ -104,6 +105,8 @@ h3 {
     color: var(--darkGray);
 }
 
+/* The images aren’t responsive.
+You can give a % value to an image’s width to make it responsive to the screen size. */
 .banner img {
     width: 37.5rem;
     height: 27.5rem;
@@ -138,6 +141,7 @@ h3 {
     background-color: var(--yellow);
 }
 
+/* Great job on positioning the icons on the edge of the cards by using position absolut and relative! */
 .card-image {
     position: absolute;
     top: -40px;
@@ -182,7 +186,7 @@ h3 {
 /* Media Queries */
 
 /* Tablet */
-
+/* Great work on making your project responsive using media queries properly! */
 @media screen and (max-width: 768px) {
     .container {
         padding: 1.625rem 1.625rem 0 1.625rem;
@@ -225,7 +229,9 @@ h3 {
 }
 
 /* Mobile */
+/* Good job on hiding the regular navbar and showing the hamburger icon on smaller screen sizes.
 
+The hamburger menu is not functional. */
 @media screen and (max-width: 480px) {
     .container {
         padding: 1.625rem 1.625rem 0 1.625rem;
